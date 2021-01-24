@@ -1,4 +1,5 @@
 dnspython>=1.16.0
 cymruwhois>=1.6
-numpy
-pandas
+numpy>=1.19.5
+pandas>=1.2.1
+openpyxl>=3.0.6
