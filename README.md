@@ -1,3 +1,4 @@
+[![Build status](https://travis-ci.com/Davidxswang/dnsdiag.svg?branch=master)](https://travis-ci.com/github/Davidxswang)
 
 DNS Batch Test Tool
 ==================================================
