@@ -1,17 +1,9 @@
 language: python
-sudo: false
 install: "pip install -r requirements.txt"
-script: nosetests dnstraceroute.py
+script: batchtest.py
 matrix:
-  fast_finish: true
   include:
-    - python: "3.4"
-    - python: "3.5"
     - python: "3.6"
     - python: "3.7"
-      dist: xenial
-      sudo: true
-    - python: "3.8-dev"
-      dist: xenial
-      sudo: true
-    - python: "pypy3"
+    - python: "3.8"
+    - python: "3.9"

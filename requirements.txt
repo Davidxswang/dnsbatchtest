@@ -1,2 +1,4 @@
 dnspython>=1.16.0
 cymruwhois>=1.6
+numpy
+pandas
