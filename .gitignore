@@ -1,3 +1,7 @@
+# result file
+*.csv
+*.xlsx
+
 # virtualenv
 .venv/
 

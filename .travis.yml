@@ -1,9 +1,7 @@
 language: python
 install: "pip install -r requirements.txt"
-script: batchtest.py
+script: "python3 batchtest.py"
 matrix:
   include:
-    - python: "3.6"
-    - python: "3.7"
-    - python: "3.8"
     - python: "3.9"
+      dist: focal
